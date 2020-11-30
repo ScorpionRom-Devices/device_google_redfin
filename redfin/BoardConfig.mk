@@ -23,6 +23,12 @@ include device/google/redbull/BoardConfig-common.mk
 DEVICE_MANIFEST_FILE += device/google/redfin/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/redfin/device_framework_matrix.xml
 
+# vendor.img
+ifneq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
+BOARD_VENDORIMAGE_PARTITION_SIZE := 695218408
+endif
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+
 # Testing related defines
 #BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/r3-setup.sh
 
