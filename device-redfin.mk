@@ -209,3 +209,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth_power_limits_redfin_us.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_US.csv \
     $(LOCAL_PATH)/bluetooth_power_limits_redfin_eu.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_EU.csv \
     $(LOCAL_PATH)/bluetooth_power_limits_redfin_jp.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_JP.csv
+
+# Build necessary packages for system
+PRODUCT_PACKAGES += \
+    libhidltransport \
+    libhwbinder \
+    libmediaplayerservice:32 \
+    libstagefright_httplive:32
