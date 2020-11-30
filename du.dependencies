@@ -1,0 +1,42 @@
+[
+ {
+   "repository":  "craigacgomez/android_device_google_redbull",
+   "target_path": "device/google/redbull",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "craigacgomez/android_device_google_redbull-sepolicy",
+   "target_path": "device/google/redbull-sepolicy",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "craigacgomez/android_device_google_redfin-sepolicy",
+   "target_path": "device/google/redfin-sepolicy",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "craigacgomez/android_kernel_google_redbull",
+   "target_path": "kernel/google/redbull",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_vendor_codeaurora_telephony",
+   "target_path": "vendor/codeaurora/telephony",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "craigacgomez/android_vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "DirtyUnicorns/android_vendor_qcom_opensource_interfaces",
+   "target_path": "vendor/qcom/opensource/interfaces",
+   "branch":      "r11x"
+ },
+ {
+   "repository":  "android_vendor_pixelgapps",
+   "target_path": "vendor/pixelgapps",
+   "branch":      "r11x"
+ }
+]
