@@ -1,0 +1,37 @@
+[
+ {
+   "repository":  "ScorpionRom/device_google_redbull",
+   "target_path": "device/google/redbull",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "ScorpionRom/device_google_redbull-sepolicy",
+   "target_path": "device/google/redbull-sepolicy",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "ScorpionRom/device_google_redfin-sepolicy",
+   "target_path": "device/google/redfin-sepolicy",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "ScorpionRom/vendor_codeaurora_telephony",
+   "target_path": "vendor/codeaurora/telephony",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "FrankenRom11/vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "ScorpionRom/vendor_qcom_opensource_interfaces",
+   "target_path": "vendor/qcom/opensource/interfaces",
+   "branch":      "sr4"
+ },
+ {
+   "repository":  "vendor_pixelgapps",
+   "target_path": "vendor/pixelgapps",
+   "branch":      "sr4"
+ }
+]

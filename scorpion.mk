@@ -22,7 +22,7 @@
 #
 
 # Include DU common configuration
-include vendor/du/config/common_full_phone.mk
+include vendor/scorpion/config/common_full_phone.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/redfin/aosp_redfin.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, device/google/redfin/aosp_redfin.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-PRODUCT_NAME := du_redfin
+PRODUCT_NAME := scorpion_redfin
 PRODUCT_DEVICE := redfin
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 5
