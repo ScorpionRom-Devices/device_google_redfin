@@ -30,7 +30,7 @@
    "branch":      "sr4"
  },
  {
-   "repository":  "vendor_pixelgapps",
+   "repository":  "abc_gapps",
    "target_path": "vendor/pixelgapps",
    "branch":      "sr4"
  }
