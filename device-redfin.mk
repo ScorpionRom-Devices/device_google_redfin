@@ -212,31 +212,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth_power_limits_redfin_eu.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_EU.csv \
     $(LOCAL_PATH)/bluetooth_power_limits_redfin_jp.csv:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_power_limits_JP.csv
 
-# Build necessary packages for system
+# Build necessary packages for system_ext
 PRODUCT_PACKAGES += \
-    libhidltransport \
-    libhwbinder \
-    libmediaplayerservice:32 \
-    libstagefright_httplive:32
+    com.qualcomm.qti.bluetooth_audio@1.0 \
+    vendor.display.config@1.8 \
+    vendor.qti.hardware.cryptfshw@1.0
 
 # Build necessary packages for vendor
 PRODUCT_PACKAGES += \
+    android.hardware.identity-support-lib.vendor:64 \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor:32 \
     android.hardware.sensors@2.0-service.multihal \
-    android.hardware.sensors@2.0-ScopedWakelock.vendor \
     chre \
-    ese_spi_st:64 \
-    libavservices_minijail.vendor \
-    libbatching \
+    flp.conf \
+    libavservices_minijail.vendor:64 \
     libcodec2_hidl@1.0.vendor:64 \
     libcodec2_vndk.vendor \
-    libdrm.vendor \
-    libgooglecamerahal.vendor \
-    libgooglecamerahalutils.vendor \
-    libhidltransport.vendor \
+    libcppbor.vendor:64 \
+    libdisplayconfig.qti.vendor:32 \
+    libhidltransport.product \
     libhwbinder.vendor \
     libjson \
     libkeymaster_messages.vendor:64 \
-    libkeymaster_portable.vendor:64 \
     libmedia_ecoservice.vendor \
     libnetfilter_conntrack:64 \
     libnfnetlink:64 \
@@ -246,12 +243,17 @@ PRODUCT_PACKAGES += \
     libnos_datagram_citadel:64 \
     libnosprotos:64 \
     libnos_transport:64 \
-    lib_profiler:64 \
+    libprotobuf-cpp-full-vendorcompat \
     libpuresoftkeymasterdevice.vendor:64 \
-    libsensorndkbridge \
+    libqdutils:32 \
+    libqservice:32 \
+    libqti_vndfwk_detect.vendor:32 \
     libsoft_attestation_cert.vendor:64 \
+    libstagefright_bufferpool@2.0.1 \
+    libteeui_hal_support.vendor:64 \
     libtinycompress \
     libtinyxml \
+    libvndfwk_detect_jni.qti.vendor \
     libwifi-hal:64 \
     libwifi-hal-qcom \
     nos_app_avb:64 \
@@ -267,14 +269,10 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.6.vendor:64 \
     vendor.display.config@1.7.vendor:64 \
     vendor.display.config@1.8.vendor:64 \
-    vendor.display.config@1.8.vendor:64 \
     vendor.display.config@1.9.vendor:64 \
-    vendor.qti.hardware.display.allocator@3.0.vendor:64 \
-    vendor.qti.hardware.display.allocator@4.0.vendor:64 \
-    vendor.qti.hardware.display.composer@3.0.vendor:64 \
+    vendor.display.config@2.0.vendor:32 \
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
+    vendor.qti.hardware.camera.postproc@1.0.vendor:64 \
+    vendor.qti.hardware.cryptfshw@1.0.vendor \
     vendor.qti.hardware.display.mapper@1.0.vendor:64 \
-    vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0.vendor \
-    vendor.qti.hardware.display.mapper@4.0.vendor \
-    vendor.qti.hardware.display.mapperextensions@1.0.vendor \
-    vendor.qti.hardware.display.mapperextensions@1.1.vendor
+    vendor.qti.hardware.systemhelper@1.0.vendor \
