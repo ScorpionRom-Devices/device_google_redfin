@@ -245,6 +245,7 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <!-- ID0:Fingerprint:Strong -->
         <item>0:2:15</item>
+	</string-array>
 
     <!-- Switch to fixed refresh rate when display brightness setting is
          equal or more than this value -->
