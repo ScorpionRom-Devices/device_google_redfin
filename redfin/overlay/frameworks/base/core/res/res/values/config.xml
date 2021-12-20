@@ -254,6 +254,9 @@
 
     <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
     <integer name="config_defaultRefreshRateInZone">90</integer>
+    
+    <!-- Flag indicating whether we should enable adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">false</bool>
 
     <!-- Switch to fixed refresh rate when display brightness setting is
          equal or more than this value -->
