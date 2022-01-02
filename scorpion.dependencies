@@ -1,7 +1,22 @@
 [
   {
-    "repository": "android_device_google_redbull",
-    "target_path": "device/google/redbull"
-    "branch":      "sr5"
-  }
+   "repository":  "ScorpionRom-Devices/device_google_redbull",
+   "target_path": "device/google/redbull",
+   "branch":      "sr5"
+ },
+ {
+   "repository":  "LineageOS/android_vendor_codeaurora_telephony",
+   "target_path": "vendor/codeaurora/telephony",
+   "branch":      "lineage-19.0"
+ },
+ {
+   "repository":  "LineageOS/android_vendor_qcom_opensource_interfaces",
+   "target_path": "vendor/qcom/opensource/interfaces",
+   "branch":      "lineage-19.0"
+ },
+ {
+   "repository":  "TheMuppets/proprietary_vendor_google",
+   "target_path": "vendor/google",
+   "branch":      "lineage-19.0"
+ }
 ]
