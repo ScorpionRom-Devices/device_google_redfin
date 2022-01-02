@@ -33,6 +33,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys
     
 $(call inherit-product-if-exists, vendor/google/redfin/redfin-vendor.mk)
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)    
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)    
 
 BUILD_FINGERPRINT := google/redfin/redfin:12/SQ1A.211205.008/7888514:user/release-keys
